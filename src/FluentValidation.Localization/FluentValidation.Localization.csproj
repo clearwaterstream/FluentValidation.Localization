@@ -1,11 +1,29 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <RepositoryUrl>https://github.com/clearwaterstream/FluentValidation.Localization.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>fluentvalidation, localization, translation</PackageTags>
+    <PackageProjectUrl>https://github.com/clearwaterstream/FluentValidation.Localization</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/clearwaterstream/FluentValidation.Localization/master/img/nuget_icon.png</PackageIconUrl>
+    <Copyright>Copyright (c) $([System.DateTime]::Now.Year) Igor Krupin</Copyright>
+    <Authors>Igor Krupin</Authors>
+    <Description>A helper library for FluentValidation that allows for easy declaration of error messages in various languages without the use of resource files</Description>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageReleaseNotes>v1.0.0 - Initial Release</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="8.1.3" />
+    <PackageReference Include="LocalizedString" Version="1.0.0" />
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-18618-05">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
   </ItemGroup>
 
 </Project>

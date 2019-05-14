@@ -52,3 +52,5 @@ validationResult = validator.Validate(student);
 
 Console.WriteLine(validationResult.Errors[0].ErrorMessage); // Das name must be at least 3 characters long
 ```
+
+### - Enjoy Responsibly -

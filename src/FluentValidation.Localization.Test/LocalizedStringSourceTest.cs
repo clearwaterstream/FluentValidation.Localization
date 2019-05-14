@@ -37,29 +37,29 @@ namespace FluentValidation.Localization.Test
         [Fact]
         public void TestValidator()
         {
-            var s = new Student()
+            var student = new Student()
             {
-                Name = "JT",
+                Name = "TJ",
                 GPA = 4.1
             };
 
-            var v = new StudentValidator();
+            var validator = new StudentValidator();
 
             Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(string.Empty); // invariant
 
-            var r = v.Validate(s);
+            var validationResult = validator.Validate(student);
 
-            Assert.Equal(2, r.Errors.Count);
+            Assert.Equal(2, validationResult.Errors.Count);
 
-            Assert.Equal("Name must be at least 3 characters long", r.Errors[0].ErrorMessage);
+            Assert.Equal("Name must be at least 3 characters long", validationResult.Errors[0].ErrorMessage);
 
             Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo("de-DE");
 
-            r = v.Validate(s);
+            validationResult = validator.Validate(student);
 
-            Assert.Equal(2, r.Errors.Count);
+            Assert.Equal(2, validationResult.Errors.Count);
 
-            Assert.Equal("Das name must be at least 3 characters long", r.Errors[0].ErrorMessage);
+            Assert.Equal("Das name must be at least 3 characters long", validationResult.Errors[0].ErrorMessage);
         }
     }
 }

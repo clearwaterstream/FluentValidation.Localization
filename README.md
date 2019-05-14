@@ -1,5 +1,5 @@
 # FluentValidation.Localization
-A helper library for [FluentValidation](https://github.com/JeremySkinner/FluentValidation) that allows for easy declaration of error messages in various languages without the use of resource files. When ValidationResult is produced, the value of `Thread.CurrentThread.CurrentCulture` will be used to resolve the translations for the `ErrorMessage`s
+A helper library for [FluentValidation](https://github.com/JeremySkinner/FluentValidation) that allows for easy declaration of error messages in various languages without the use of resource files. When ValidationResult is produced, the value of `Thread.CurrentThread.CurrentCulture` will be used to resolve the translations for the `ErrorMessage` fields.
 
 Useful for short strings. If strings are getting longer -- consider switching to time-tested technique of using resource files.
 

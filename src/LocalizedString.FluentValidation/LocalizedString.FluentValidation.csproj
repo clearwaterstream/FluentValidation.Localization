@@ -3,11 +3,11 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <RepositoryUrl>https://github.com/clearwaterstream/FluentValidation.Localization.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/clearwaterstream/LocalizedString.FluentValidation.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <PackageTags>fluentvalidation, localization, translation</PackageTags>
-    <PackageProjectUrl>https://github.com/clearwaterstream/FluentValidation.Localization</PackageProjectUrl>
-    <PackageIconUrl>https://raw.githubusercontent.com/clearwaterstream/FluentValidation.Localization/master/img/nuget_icon.png</PackageIconUrl>
+    <PackageTags>fluentvalidation, localization, translation, localizedstring</PackageTags>
+    <PackageProjectUrl>https://github.com/clearwaterstream/LocalizedString.FluentValidation</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/clearwaterstream/LocalizedString.FluentValidation/master/img/nuget_icon.png</PackageIconUrl>
     <Copyright>Copyright (c) $([System.DateTime]::Now.Year) Igor Krupin</Copyright>
     <Authors>Igor Krupin</Authors>
     <Description>A helper library for FluentValidation that allows for easy declaration of error messages in various languages without the use of resource files</Description>

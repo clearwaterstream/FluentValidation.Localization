@@ -1,11 +1,11 @@
-﻿using clearwaterstream;
+﻿using FluentValidation;
 using FluentValidation.Resources;
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace FluentValidation.Localization
+namespace clearwaterstream
 {
     /// <summary>
     /// Enables the use of  <see cref="LocalizedString"/> in FluentValidation

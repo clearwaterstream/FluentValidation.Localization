@@ -1,10 +1,10 @@
-﻿using clearwaterstream;
+﻿using FluentValidation;
 using FluentValidation.Resources;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace FluentValidation.Localization
+namespace clearwaterstream
 {
     public static class FluentValidationExtensions
     {

@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentValidation.Localization", "FluentValidation.Localization\FluentValidation.Localization.csproj", "{E0F114E6-F0DE-448D-87ED-5DF9E48840A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LocalizedString.FluentValidation", "LocalizedString.FluentValidation\LocalizedString.FluentValidation.csproj", "{E0F114E6-F0DE-448D-87ED-5DF9E48840A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidation.Localization.Test", "FluentValidation.Localization.Test\FluentValidation.Localization.Test.csproj", "{B180B6B6-64CC-4263-A17A-134D9EB0F1FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalizedString.FluentValidation.Test", "LocalizedString.FluentValidation.Test\LocalizedString.FluentValidation.Test.csproj", "{B180B6B6-64CC-4263-A17A-134D9EB0F1FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

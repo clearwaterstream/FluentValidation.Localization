@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FluentValidation.Localization\FluentValidation.Localization.csproj" />
+    <ProjectReference Include="..\LocalizedString.FluentValidation\LocalizedString.FluentValidation.csproj" />
   </ItemGroup>
 
 </Project>

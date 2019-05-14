@@ -14,13 +14,14 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
-    <PackageReleaseNotes>v1.0.0 - Initial Release</PackageReleaseNotes>
+    <PackageReleaseNotes>v1.0.1 - Renamed package so as to not collide with reserved FluentValidation prefix
+v1.0.0 - Initial Release</PackageReleaseNotes>
     <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FluentValidation" Version="8.4.0" />
-    <PackageReference Include="LocalizedString" Version="1.0.1" />
+    <PackageReference Include="LocalizedString" Version="1.0.3" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-beta2-18618-05">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
